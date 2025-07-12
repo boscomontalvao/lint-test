@@ -1,10 +1,10 @@
-name: Lint and SonarCloud Analysis
+name: Lint and SonarQube Analysis
 
 on: [push]
 
 jobs:
   code-analysis:
-    name: Lint and SonarCloud 
+    name: Lint and SonarQube 
     runs-on: ubuntu-latest
 
     steps:
@@ -28,8 +28,8 @@ jobs:
           name: eslint-report
           path: eslint-report.json
 
-      - name: Configure SonarCloud
-        uses: sonarsource/sonarcloud-github-action@v5
+      - name: Configure SonarQube
+        uses: sonarsource/sonarqube-github-action@v5
         with:
           projectBaseDir: src
         env:
