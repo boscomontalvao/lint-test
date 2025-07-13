@@ -12,11 +12,12 @@ export class App {
   private readonly x: string[] = ['teste', 'find', 'outro'];
 
   private fun() {
-    const y = this.x.map((z) => {
+    this.x.forEach((z) => {
       if(z == 'find'){
         return z;
       }
       return 'not find';
     });
+    
   }
 }
