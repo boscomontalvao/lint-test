@@ -9,5 +9,5 @@ export function teste(a: number, b: number) {
 }
 
 export class Classe {
-  private readonly t: number = 50;
+  private readonly t: number = 5;
 }
