@@ -7,3 +7,8 @@ export function teste(a: number, b: number) {
     return true;
   }
 }
+
+
+export class Ste {
+  private x: string = 'stete';
+}
