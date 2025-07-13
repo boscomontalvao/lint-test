@@ -7,7 +7,3 @@ export function teste(a: number, b: number) {
     return true;
   }
 }
-
-export class Classe {
-  private readonly t: number = 50;
-}
