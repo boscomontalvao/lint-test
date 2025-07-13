@@ -3,11 +3,12 @@ export enum MyEnum {
 }
 
 export function teste(a: number, b: number) {
+  const x: number = 5 ;
   if(a + b == 6) {
-    return true;
+    return a + b;
   }
 }
 
-export class Classe {
+export class classe {
   private readonly t: number = 5;
 }

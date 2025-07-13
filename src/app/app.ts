@@ -13,11 +13,10 @@ export class App {
 
   private fun() {
     const y = this.x.map((z) => {
-      if (z == 'find'){
+      if(z == 'find'){
         return z;
       }
       return 'not find';
     });
-    return y;
   }
 }
