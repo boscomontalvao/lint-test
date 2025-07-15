@@ -1,13 +1,14 @@
 export enum MyEnum {
-  ENEM = 1
+  ENEM = 4
 }
 
-export function teste(a: number, b: number) {
+export function teste(a: number, b: number): number{
   if(a + b == 6) {
-    return true;
+    return a + b;
   }
+  return 0;
 }
 
 export class Classe {
-  private readonly t: number = 50;
+  private readonly t: number = 5;
 }
