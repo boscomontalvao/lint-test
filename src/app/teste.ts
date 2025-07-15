@@ -1,5 +1,5 @@
 export enum MyEnum {
-  ENEM = 1
+  ENEM = 4
 }
 
 export function teste(a: number, b: number): number{
